@@ -41,7 +41,7 @@ Producto {i}, precio: $ ''')
                 
                 descuento = input(f'Producto {i} tiene descuento? (S/N): ').upper()
                 
-                while descuento != 'S' and descuento != 'N':
+                while descuento != 'S' or descuento != 'N':
                     descuento = input('Entrada equivocada. Debe indicar S/N: ').upper()
 
                 if descuento == 'S':
